@@ -46,7 +46,7 @@ jobs:
         product: "rock-5b"
     - id: "query"
       name: "Query product info"
-      uses: "RadxaOS-SDK/rsdk/.github/actions/query@main"
+      uses: "kylin7226/rsdk/.github/actions/query@main"
       with:
         product: "rock-5b"
     - id: "release"
