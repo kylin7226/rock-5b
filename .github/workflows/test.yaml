@@ -8,7 +8,7 @@ jobs:
     - name: "Checkout"
       uses: "actions/checkout@v4"
     - name: "Build image"
-      uses: "RadxaOS-SDK/rsdk/.github/actions/build@main"
+      uses: "kylin7226/rsdk/.github/actions/build@main"
       with:
         edition: "${{ matrix.edition }}"
         github-token: "${{ secrets.GITHUB_TOKEN }}"
@@ -49,7 +49,7 @@ jobs:
         product: "rock-5b"
     - id: "query"
       name: "Query product info"
-      uses: "RadxaOS-SDK/rsdk/.github/actions/query@main"
+      uses: "kylin7226/rsdk/.github/actions/query@main"
       with:
         product: "rock-5b"
     - id: "release"
